@@ -1,14 +1,12 @@
-/* Fundo azul escuro e centralização do texto */
+/* Fundo azul escuro */
 body {
-    background-color: #0B1D3A; /* Azul escuro */
-    color: #39FF14; /* Verde neon */
-    font-family: Arial, sans-serif;
-    text-align: center;
+    background-color: #071B3B;
     margin: 0;
     padding: 0;
+    font-family: Arial, sans-serif;
 }
 
-/* Container centralizado */
+/* Centraliza tudo */
 .container {
     display: flex;
     flex-direction: column;
@@ -17,32 +15,44 @@ body {
     min-height: 100vh;
 }
 
-/* Título grande com efeito neon */
+/* Título gigante */
 h1 {
-    font-size: 3em;
-    margin: 20px 0;
-    text-shadow: 0 0 10px #39FF14, 0 0 20px #39FF14;
+    color: #39FF14;
+    font-size: 70px;
+    text-align: center;
+    text-shadow:
+        0 0 10px #39FF14,
+        0 0 20px #39FF14,
+        0 0 40px #39FF14;
+    margin-bottom: 20px;
 }
 
-/* Parágrafo grande com efeito neon */
+/* Texto grande */
 p {
-    font-size: 2em;
-    margin: 10px 0 30px 0;
-    text-shadow: 0 0 5px #39FF14;
+    color: #39FF14;
+    font-size: 40px;
+    text-align: center;
+    text-shadow:
+        0 0 10px #39FF14,
+        0 0 20px #39FF14;
+    margin-bottom: 40px;
 }
 
-/* Wrapper para a imagem com borda e sombra neon */
+/* Borda neon na imagem */
 .image-wrapper {
-    display: inline-block;
-    border: 5px solid #0AFF3E; /* Verde neon mais escuro */
-    padding: 10px;
-    border-radius: 15px;
-    box-shadow: 0 0 30px #0AFF3E;
+    border: 8px solid #39FF14;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow:
+        0 0 20px #39FF14,
+        0 0 40px #39FF14,
+        0 0 60px #39FF14;
 }
 
-/* Imagem grande */
+/* Imagem maior */
 .image-wrapper img {
-    width: 400px; /* Ajuste o tamanho da imagem */
-    height: auto;
+    width: 700px;
+    max-width: 90%;
     display: block;
+    border-radius: 15px;
 }
