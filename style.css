@@ -1,13 +1,31 @@
-h1, h2 {
-    color: rgb(51, 255, 0);
-}
+/* style.css */
 
-/* CSS para fundo azul escuro */
+/* Fundo azul escuro para toda a página */
 body {
     background-color: #0B3D91; /* azul escuro */
-    color: white; /* opcional: deixa o texto branco para contraste */
+    color: white; /* texto branco para contraste */
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    height: 100vh; /* garante que o fundo ocupe a tela inteira */
+}
+
+/* Se quiser estilizar o h1 */
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilizando o parágrafo verde existente */
+.texto-verde {
+    color: #32CD32; /* verde limão */
+    text-align: center;
+    font-size: 1.2em;
+}
+
+/* Centralizando a imagem */
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 80%;
+    height: auto;
 }
