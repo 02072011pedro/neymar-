@@ -27,8 +27,8 @@ h1 {
     margin-bottom: 20px;
 }
 
-/* Texto grande */
-p {
+/* Texto principal */
+.principal {
     color: #39FF14;
     font-size: 40px;
     text-align: center;
@@ -38,7 +38,7 @@ p {
     margin-bottom: 40px;
 }
 
-/* Borda neon na imagem */
+/* Borda neon da imagem */
 .image-wrapper {
     border: 8px solid #39FF14;
     border-radius: 20px;
@@ -47,6 +47,7 @@ p {
         0 0 20px #39FF14,
         0 0 40px #39FF14,
         0 0 60px #39FF14;
+    margin-bottom: 50px;
 }
 
 /* Imagem maior */
@@ -55,4 +56,30 @@ p {
     max-width: 90%;
     display: block;
     border-radius: 15px;
+}
+
+/* Área dos textos */
+.textos {
+    width: 80%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* Títulos das seções */
+.textos h2 {
+    color: #39FF14;
+    font-size: 45px;
+    text-shadow:
+        0 0 10px #39FF14,
+        0 0 20px #39FF14;
+    margin-top: 40px;
+}
+
+/* Parágrafos */
+.textos p {
+    color: #39FF14;
+    font-size: 28px;
+    line-height: 1.6;
+    text-shadow:
+        0 0 5px #39FF14;
 }
