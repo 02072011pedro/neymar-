@@ -1,1 +1,42 @@
-<p class="texto-verde">um futuro melhor pra todos</p>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Minha Página no GitHub</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            transition: background-color 0.5s;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <button onclick="mudarFundo()">Mudar Fundo</button>
+
+    <script>
+        function mudarFundo() {
+            // Lista de cores possíveis
+            const cores = ["#FF5733", "#33FF57", "#3357FF", "#F333FF", "#33FFF5", "#FFF533"];
+            // Escolhe uma cor aleatória
+            const corAleatoria = cores[Math.floor(Math.random() * cores.length)];
+            document.body.style.backgroundColor = corAleatoria;
+        }
+    </script>
+
+</body>
+</html>
