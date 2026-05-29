@@ -1,0 +1,61 @@
+/* Fundo azul escuro */
+body {
+    background: linear-gradient(to bottom, #0B3D91, #021B4D);
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Título */
+h1 {
+    text-align: center;
+    padding: 25px;
+    font-size: 50px;
+
+    /* brilho */
+    text-shadow:
+        0 0 10px #00BFFF,
+        0 0 20px #00BFFF,
+        0 0 40px #87CEFA;
+}
+
+/* Texto verde */
+.texto-verde {
+    color: #32CD32;
+    text-align: center;
+    font-size: 28px;
+
+    /* brilho verde */
+    text-shadow:
+        0 0 5px #32CD32,
+        0 0 15px #7CFC00;
+}
+
+/* Imagem centralizada */
+img {
+    display: block;
+    margin: 30px auto;
+    max-width: 70%;
+    height: auto;
+
+    border-radius: 20px;
+
+    /* brilho na imagem */
+    box-shadow:
+        0 0 20px #00BFFF,
+        0 0 40px #00BFFF,
+        0 0 60px #87CEFA;
+
+    transition: 0.5s;
+}
+
+/* efeito ao passar o mouse */
+img:hover {
+    transform: scale(1.05);
+
+    box-shadow:
+        0 0 30px white,
+        0 0 60px #00BFFF,
+        0 0 90px #87CEFA;
+}
